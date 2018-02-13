@@ -1,0 +1,50 @@
+.ct-list > a {
+    border-left: 0.5rem solid #ffffff;
+    border-right: 0.5rem solid #ffffff;
+    border-bottom: 1px solid #d7d7d7; /* rgba(0,0,0,.1)*/
+}
+
+/*激活标题*/
+.ct-list > a:link > h3 {
+    color: black !important;
+}
+
+/*访问过的标题*/
+.ct-list > a:visited > h3 {
+    color: black !important;
+}
+
+/*鼠标点击后的标题*/
+.ct-list > a:hover > h3 {
+}
+
+/*激活的标题*/
+.ct-list > a:active {
+    background-color: #ebebeb !important;
+}
+
+.ct-list > a > img.left, .ct-list > a > img.right {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.ct-list > a > h3 {
+    color: #222222;
+}
+
+.ct-list > a > p {
+    color: #999;
+}
+
+.ct-list > a > div > i {
+    background-color: #e43930;
+    color: #ffffff;
+}
+
+.ct-list > a > div > time {
+    color: #7a7c80;
+}
+
+/*基本列表*/
+.ct-list > a {
+    background-color: #ffffff !important;
+}

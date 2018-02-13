@@ -1,0 +1,78 @@
+/*缺省按钮样式*/
+.ct-btn-default {
+    color: #444;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+/*主色按钮样式*/
+.ct-btn-primary {
+    color: #fff;
+    background-color: #0e90d2;
+    border-color: #0e90d2;
+}
+
+.ct-btn-primary:hover {
+    border-color: #0a6999;
+    background-color: #0c79b1;
+}
+
+/*次色按钮样式*/
+.ct-btn-secondary {
+    color: #fff;
+    background-color: #3bb4f2;
+    border-color: #3bb4f2;
+}
+
+.ct-btn-secondary:hover {
+    background-color: #19a7f0;
+    border-color: #0f9ae0;
+}
+
+/*绿色按钮样式*/
+.ct-btn-success {
+    color: #fff;
+    background-color: #5eb95e;
+    border-color: #5eb95e;
+}
+
+.ct-btn-success:hover {
+    background-color: #4aaa4a;
+    border-color: #429842;
+}
+
+/*桔色按钮样式*/
+.ct-btn-warning {
+    color: #fff;
+    background-color: #f37b1d;
+    border-color: #f37b1d;
+}
+
+.ct-btn-warning:hover {
+    background-color: #e0690c;
+    border-color: #c85e0b;
+}
+
+/*红色按钮样式*/
+.ct-btn-danger {
+    color: #fff;
+    background-color: #dd514c;
+    border-color: #dd514c;
+}
+
+.ct-btn-danger:hover {
+    background-color: #d7342e;
+    border-color: #c62b26;
+}
+
+.ct-btn-link {
+    color: #0e90d2;
+}
+
+.ct-btn-link:hover {
+    color: #095f8a;
+}
+
+.ct-btn.ct-btn-active {
+    background-color: #0a628f;
+}

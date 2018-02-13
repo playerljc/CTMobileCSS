@@ -1,0 +1,72 @@
+/*基本列表*/
+.ct-list > a {
+    display: block !important;
+    min-height: 5.05rem;
+    padding: 0.4rem 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.ct-list > a > img.left, .ct-list > a > img.right {
+    width: 4.25rem;
+    height: 100%;
+    margin-right: 0.5rem;
+}
+
+.ct-list > a > img.bottom {
+    padding-top: .6rem;
+    margin-top: .6rem;
+    width: 100%;
+}
+
+.ct-list > a > img.left {
+    float: left;
+}
+
+.ct-list > a > img.right {
+    float: right;
+}
+
+.ct-list > a > h3 {
+    margin: 0;
+    padding: 0 0 .2rem 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    font-size: .8rem;
+}
+
+.ct-list > a > p {
+    margin: 0;
+    height: 1.75rem;
+    overflow: hidden;
+    font-size: 0.7rem;
+    line-height: .85rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    word-break: break-all;
+}
+
+.ct-list > a > div {
+    overflow: hidden;
+    padding-top: .2rem;
+}
+
+.ct-list > a > div > i {
+    width: 2rem;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: 2px;
+    text-align: center;
+    float: left;
+    font-size: 0.7rem;
+}
+
+.ct-list > a > div > time {
+    float: right;
+    font-size: 0.6rem;
+    padding-right: 0.4rem;
+}

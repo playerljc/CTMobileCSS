@@ -1,0 +1,33 @@
+﻿/*带尖头的列表*/
+.ct-arrow-list > a {
+    display: block;
+    line-height: 2.1rem;
+    height: 2.1rem;
+    padding: 0.2rem 30px 0.2rem 0.5rem;
+}
+
+.ct-arrow-list > a:last-child {
+    border-bottom: 0;
+}
+
+.ct-arrow-list > a > span,
+.ct-arrow-list > a > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    height: 100%;
+    width: 50%;
+    font-size: .75rem;
+}
+
+/*左侧文本*/
+.ct-arrow-list > a > span {
+    float: left;
+}
+
+/*右侧操作*/
+.ct-arrow-list > a > div {
+    float: right;
+    text-align: right;
+}

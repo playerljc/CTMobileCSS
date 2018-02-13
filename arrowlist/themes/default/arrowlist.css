@@ -1,0 +1,34 @@
+﻿.ct-arrow-list > a {
+    border-left: 0.5rem solid #ffffff;
+    border-right: 0.5rem solid #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+/*未访问过*/
+.ct-arrow-list > a:link {
+    color: #333;
+}
+
+/*已访问过*/
+.ct-arrow-list > a:visited {
+}
+
+/*鼠标移动到连接上*/
+.ct-arrow-list > a:hover {
+}
+
+/*选定的链接*/
+.ct-arrow-list > a:active {
+    background-color: #ebebeb !important;
+}
+
+.ct-arrow-list > a > div {
+    color: #999;
+}
+
+/*带尖头的列表*/
+.ct-arrow-list > a {
+    background: url(iconfont-arrow1.png) 98% no-repeat;
+    background-color: #ffffff !important;
+    background-size: 15px !important;
+}

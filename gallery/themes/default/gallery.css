@@ -1,0 +1,32 @@
+.ct-gallery > ul > li > a {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .35);
+}
+
+.ct-gallery > ul > li > a:link {
+
+}
+
+.ct-gallery > ul > li > a:visited {
+
+}
+
+.ct-gallery > ul > li > a:hover {
+
+}
+
+.ct-gallery > ul > li > a:active {
+
+}
+
+.ct-gallery > ul > li > a > h3 {
+    color: #555;
+}
+
+.ct-gallery > ul > li > a > h3.float {
+    color: #ffffff;
+    background: rgba(0, 0, 0, .5);
+}
+
+.ct-gallery > ul > li > a > time {
+    color: #999;
+}

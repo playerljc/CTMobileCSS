@@ -1,0 +1,65 @@
+.ct-gallery {
+    overflow: hidden;
+}
+
+.ct-gallery > ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 5px 5px 0 5px;
+    overflow: hidden;
+}
+
+.ct-gallery > ul > li.twocolumn, .ct-gallery > ul > li.threecolumn {
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.ct-gallery > ul > li.twocolumn {
+    width: 50%;
+}
+
+.ct-gallery > ul > li.threecolumn {
+    width: 33.3%;
+}
+
+.ct-gallery > ul > li > a {
+    position: relative;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.ct-gallery > ul > li > a > img {
+    width: 100%;
+}
+
+.ct-gallery > ul > li > a > h3 {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.ct-gallery > ul > li > a > h3.float {
+    margin: 0 !important;
+    font-weight: 400;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    text-indent: 5px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ct-gallery > ul > li > a > time {
+    font-size: .8rem;
+}

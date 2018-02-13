@@ -1,0 +1,33 @@
+.ct-option-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ct-option-list > li > a,
+.ct-option-list > div > a {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: horizontal;
+}
+
+.ct-option-list > li > a > [opt='inner'],
+.ct-option-list > li > a > [opt='setting'],
+.ct-option-list > div > a > [opt='inner'],
+.ct-option-list > div > a > [opt='setting'] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.ct-option-list > div > a > [opt='inner'],
+.ct-option-list > li > a > [opt='inner'] {
+    -webkit-box-flex: 1;
+    padding: .5rem;
+}
+
+.ct-option-list > div > a > [opt='setting'],
+.ct-option-list > li > a > [opt='setting'] {
+    width: 50px;
+}

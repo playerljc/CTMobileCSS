@@ -1,0 +1,18 @@
+.ct-option-list > li,
+.ct-option-list > div {
+    border-bottom: 1px solid #ccc;
+}
+
+/* 选择操作列表(未选择) */
+.ct-option-list [opt='setting'].uncheck {
+    background: url(images/iconfont-circle19.png) no-repeat center;
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+}
+
+/* 选择操作列表(选择) */
+.ct-option-list [opt='setting'].check {
+    background: url(images/iconfont-caozuochenggong.png) no-repeat center;
+    background-size: 1.5rem 1.5rem;
+    height: 1.5rem;
+}

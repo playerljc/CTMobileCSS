@@ -1,0 +1,31 @@
+/*Panel*/
+.ct-panel {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.ct-panel-body {
+    padding: 15px;
+    word-break: break-all;
+}
+
+.ct-panel-heading {
+    padding: 10px 15px;
+    /*border-top: 1px solid transparent;*/
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    word-break: break-all;
+}
+
+.ct-panel-footer {
+    padding: 10px 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    word-break: break-all;
+}
+
+.ct-panel-default > .ct-panel-heading {
+    font-size: .75rem;
+}

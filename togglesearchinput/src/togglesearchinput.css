@@ -1,0 +1,115 @@
+.ct-toggle-searchinput {
+    position: relative;
+    height: 1.6rem;
+    width: 12rem;
+    border-radius: .2rem;
+}
+
+.ct-toggle-searchinput [opt='toggle'],
+.ct-toggle-searchinput [opt='input'],
+.ct-toggle-searchinput [opt='input'] > input,
+.ct-toggle-searchinput [opt='search'] {
+    height: 100%;
+}
+
+.ct-toggle-searchinput [opt='toggle'] {
+    float: left;
+    width: 2.8rem;
+    line-height: .94rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    padding: .38rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 14px;
+}
+
+.ct-toggle-searchinput [opt='toggle'] > div {
+    padding: 15px 0 0 0;
+    position: absolute;
+    z-index: 9999;
+    width: 140px;
+}
+
+.ct-toggle-searchinput-actived {
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 10% 10%;
+    -webkit-transition-duration: .2s;
+}
+
+.ct-toggle-searchinput-out {
+    -webkit-transform: scale(0);
+    -webkit-transform-origin: 10% 10%;
+    -webkit-transition-duration: .2s;
+}
+
+.ct-toggle-searchinput [opt='toggle'] > div::before {
+    content: '\f0d8';
+    font-family: FontAwesome;
+    width: 30px;
+    height: 10px;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 1px;
+}
+
+.ct-toggle-searchinput [opt='toggle'] > div > ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0 .5rem;
+    border-radius: .2rem;
+}
+
+.ct-toggle-searchinput [opt='toggle'] > div > ul > li {
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding: .2rem;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.ct-toggle-searchinput [opt='toggle'] > div > ul > li:last-child {
+    border-bottom: 0;
+}
+
+.ct-toggle-searchinput [opt='toggle']::before {
+    content: '\f0d7';
+    font-family: FontAwesome;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+}
+
+.ct-toggle-searchinput [opt='input'] {
+    margin: 0 1.5rem 0 2.8rem;
+}
+
+.ct-toggle-searchinput [opt='input'] > input {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+.ct-toggle-searchinput [opt='input'] > input:focus {
+    outline: none;
+    background: none;
+    outline-width: 0px;
+}
+
+.ct-toggle-searchinput [opt='search'] {
+    float: right;
+    width: 1.5rem;
+    padding: .2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

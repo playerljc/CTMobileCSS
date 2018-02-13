@@ -1,0 +1,35 @@
+.ct-toggle-searchinput [opt='input'] > input:focus {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+/* 带展开操作地查询输入框 */
+.ct-toggle-searchinput {
+    border: 1px solid green;
+    /*background: #e3e3e5;*/
+    background: #fff;
+    color: #999;
+    font-size: 16px;
+}
+
+/* 带展开操作地查询输入框 */
+.ct-toggle-searchinput [opt='toggle'] > div::before {
+    color: #484d50;
+}
+
+/* 带展开操作地查询输入框 */
+.ct-toggle-searchinput [opt='toggle'] > div > ul {
+    background: #484d50;
+    color: #c7c8c9;
+}
+
+/* 带展开操作地查询输入框 */
+.ct-toggle-searchinput [opt='toggle'] > div > ul > li {
+    border-bottom: 1px solid #ccc;
+}
+
+/* 带展开操作地查询输入框 */
+.ct-toggle-searchinput [opt='search'] {
+    background: url(iconfont-sousuo-gray.png) no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+}
